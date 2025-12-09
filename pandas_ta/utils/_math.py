@@ -15,7 +15,9 @@ from numpy import fabs as npFabs
 from numpy import floor as npFloor
 from numpy import exp as npExp
 from numpy import log as npLog
-from numpy import NaN as npNaN
+#from numpy import NaN as npNaN
+import numpy as np
+npNaN = np.nan
 from numpy import ndarray as npNdArray
 from numpy import seterr
 from numpy import sqrt as npSqrt
