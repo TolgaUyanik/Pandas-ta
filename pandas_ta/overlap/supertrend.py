@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
-from numpy import NaN as npNaN
+#from numpy import NaN as npNaN
+import numpy as np
+npNaN = np.nan
 from pandas import DataFrame
 from pandas_ta.overlap import hl2
 from pandas_ta.volatility import atr
