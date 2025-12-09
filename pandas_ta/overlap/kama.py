@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
-from numpy import NaN as npNaN
+#from numpy import NaN as npNaN
+import numpy as np
+npNaN = np.nan
 from pandas import Series
 from pandas_ta.utils import get_drift, get_offset, non_zero_range, verify_series
 
